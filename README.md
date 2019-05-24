@@ -1,0 +1,5 @@
+# Requirements
+
+```
+choco install vagrant
+```

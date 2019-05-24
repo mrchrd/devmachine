@@ -1,0 +1,23 @@
+---
+
+run:
+  cli-dev: once
+  desktop: once
+  desktop-dev: once
+  upgrade: always
+  userinit: never
+user:
+  email: myemail@example.com
+  full_name: My Name
+  home_size: 32768
+  locale: fr_CA.UTF-8
+  name: myusername
+  password: mypassword
+  timezone: America/New_York
+vagrant:
+  box: ubuntu/bionic64
+  cpus: 2
+  fullscreen: on
+  gui: true
+  memory: 8192
+  monitors: 1
